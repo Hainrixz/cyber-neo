@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/cyber-neo-hero.png" alt="Cyber Neo — Claw'd, the open-source cybersecurity mascot, holding a green padlock shield" width="820">
+
 # CYBER NEO
 
 ### The Open-Source Cybersecurity Agent for Claude Code
@@ -47,6 +49,8 @@ Most security tools require installation, configuration, and expertise to interp
 ---
 
 ## What It Scans
+
+<div align="center"><img src="assets/claw-d-scanner.png" alt="Claw'd inspecting code with a magnifying glass and spotting a bug" width="280"></div>
 
 Cyber Neo covers **11 security domains** across every major vulnerability class:
 
@@ -220,6 +224,8 @@ Each finding includes:
 
 ## How It Works — Architecture Deep Dive
 
+<div align="center"><img src="assets/claw-d-architecture.png" alt="Claw'd analyzing code on a terminal showing a passing check" width="280"></div>
+
 Cyber Neo is built as a Claude Code **skill** — a markdown-based prompt that orchestrates Claude's analysis capabilities. The architecture has three layers:
 
 ### Layer 1: SKILL.md — The Orchestration Engine
@@ -310,6 +316,8 @@ The final report always shows how many files were scanned vs. skipped, so you kn
 ---
 
 ## Safety Guarantees
+
+<div align="center"><img src="assets/claw-d-shield.png" alt="Claw'd standing guard behind a shield with a green padlock — the read-only iron law" width="280"></div>
 
 Cyber Neo follows a strict **read-only iron law**:
 
@@ -462,6 +470,8 @@ We welcome contributions from the community. See [CLAUDE.md](CLAUDE.md) for deta
 ---
 
 ## Community
+
+<div align="center"><img src="assets/claw-d-community.png" alt="Claw'd waving and holding up an A+ security report" width="280"></div>
 
 Cyber Neo is shipped by **[@soyenriquerocha](https://instagram.com/soyenriquerocha)** and built by the **[Tododeia](https://tododeia.com)** community — a growing network of developers building apps, tools, and products together. We believe every developer deserves access to enterprise-grade security tooling, for free.
 
