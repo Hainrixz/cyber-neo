@@ -346,8 +346,15 @@ def scan_file(filepath: Path, compiled_patterns: list, target_root: str = "") ->
                             elif severity == "high":
                                 actual_severity = "low"
 
-                        # Redact the sensitive part
-                        redacted = line.strip()
+                        # Redact the sensitive part: keep the surrounding context so the
+                        # finding is locatable, but never emit the matched value itself.
+                        raw = line.strip()
+                        secret = match.group(0)
+                        if len(secret) > 8:
+                            masked = f"{secret[:4]}[REDACTED:{len(secret)}chars]"
+                        else:
+                            masked = "[REDACTED]"
+                        redacted = raw.replace(secret, masked)
                         if len(redacted) > 200:
                             redacted = redacted[:200] + "..."
 
