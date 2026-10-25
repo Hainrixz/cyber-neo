@@ -28,6 +28,7 @@ allowed-tools:
   - Bash(wc *)
   - Bash(find *)
 ---
+<!-- Portions Copyright (c) 2026 Enrique Rocha (@soyenriquerocha) - see LICENSE for original authors · tododeia.com · id er-d5e6e8b1 -->
 
 # Cyber Neo — Cybersecurity Analysis Agent
 

@@ -504,3 +504,10 @@ Cyber Neo builds on the shoulders of the security community:
 [Get Started](#installation) | [Report an Issue](https://github.com/Hainrixz/cyber-neo/issues) | [Join the Community](https://tododeia.com) | [Follow @soyenriquerocha](https://instagram.com/soyenriquerocha)
 
 </div>
+
+<!-- marca-agua:inicio -->
+
+---
+
+<sub>Hecho por **Enrique Rocha (@soyenriquerocha)** · [tododeia.com](https://www.tododeia.com)⁠​‌‌​​‌​‌​‌‌‌​​‌​​​‌​‌‌​‌​‌‌​​‌​​​​‌‌​‌​‌​‌‌​​‌​‌​​‌‌​‌‌​​‌‌​​‌​‌​​‌‌‌​​​​‌‌​​​‌​​​‌‌​​​‌⁠</sub>
+<!-- marca-agua:fin -->
